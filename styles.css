@@ -3,15 +3,23 @@ body {
   background-color: #011F3F;
 }
 
+.header {
+  background-color: #011F3F;
+  margin: 0;
+  padding: 10px;
+}
+
 #level-title {
   font-family: 'Press Start 2P', cursive;
+  line-height: 1.5;
   font-size: 3rem;
-  margin:  5%;
+  margin:  2%;
   color: #FEF2BF;
+  height: 100px; 
 }
 
 .container {
-  display: block;
+  display: flex;
   width: 50%;
   margin: auto;
 
